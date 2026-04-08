@@ -6,7 +6,7 @@ import Foundation
 // 3. Get a free token at https://www.themoviedb.org/settings/api
 
 enum Config {
-    static let tmdbAPIKey = "YOUR_TMDB_BEARER_TOKEN_HERE"
+    static let tmdbAPIKey = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmYzY2ZTNjYWY3ZjEzNGJhNTFjNjFiMzY1NmU3YmVlMyIsIm5iZiI6MTc3Mzg3OTU5Ny43ODgsInN1YiI6IjY5YmI0MTJkNjg0ZDhiM2Y0MTNiYjYxMSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.D2t_2aO12vmDi92mqEZ6WszpHZGxIPV_vFTq8v5FNj4"
     static let tmdbBaseURL = "https://api.themoviedb.org/3"
     static let imageBaseURL = "https://image.tmdb.org/t/p"
     static let posterSize = "w342"
